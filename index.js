@@ -40,10 +40,10 @@ event.preventDefault()
   
 event.preventDefault()
     var params = {
-      name: document.getElementById("name").value,
-      email: document.getElementById("email").value,
+      name: document.getElementById("name2").value,
+      email: document.getElementById("email2").value,
       subject: document.getElementById("subject").value,
-      message: document.getElementById("message").value,
+      message: document.getElementById("message2").value,
     };
   
     const serviceID = "service_bv8gozb";
